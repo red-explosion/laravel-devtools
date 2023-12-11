@@ -17,9 +17,9 @@ composer require red-explosion/laravel-devtools --dev
 
 ## Usage
 
-### Creating an S3 bucket
+### Create an S3 bucket
 
-Most of our projects use MinIO during local development to replicate and S3 bucket. When setting up projects for the
+Most of our projects use MinIO during local development to replicate an S3 bucket. When setting up projects for the
 first time, you will often find yourself needing to create a bucket in MinIO. This package provides a helpful command
 to create the bucket automatically with the correct permissions.
 
