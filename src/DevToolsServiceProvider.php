@@ -8,7 +8,14 @@ use Illuminate\Support\ServiceProvider;
 
 class DevToolsServiceProvider extends ServiceProvider
 {
-    public function register(): void {}
+    public function boot(): void
+    {
+        if (!$this->app->runningInConsole()) {
+            return;
+        }
 
-    public function boot(): void {}
+        $this->commands([
+            Commands\StorageCreateBucketCommand::class,
+        ]);
+    }
 }
