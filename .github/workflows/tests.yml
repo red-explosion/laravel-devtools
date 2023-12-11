@@ -20,6 +20,16 @@ jobs:
 
         name: PHP ${{ matrix.php }} - Laravel ${{ matrix.laravel }}
 
+        services:
+            minio:
+                image: lazybit/minio
+                ports:
+                    - '9000:9000'
+                env:
+                    MINIO_ACCESS_KEY: minio
+                    MINIO_SECRET_KEY: password
+                options: --name=minio --health-cmd "curl http://localhost:9000/minio/health/live"
+
         steps:
             - name: Checkout the code
               uses: actions/checkout@v4
