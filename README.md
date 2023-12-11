@@ -12,15 +12,23 @@ A collection of helpful tools for building Laravel projects.
 To get started, install Laravel DevTools via the Composer package manager:
 
 ```bash
-composer require red-explosion/laravel-devtools
+composer require red-explosion/laravel-devtools --dev
 ```
 
 ## Usage
 
-```php
-$variable = new RedExplosion\Devtools();
-echo $variable->echoPhrase('Hello, Red Explosion!');
+### Creating an S3 bucket
+
+Most of our projects use MinIO during local development to replicate and S3 bucket. When setting up projects for the
+first time, you will often find yourself needing to create a bucket in MinIO. This package provides a helpful command
+to create the bucket automatically with the correct permissions.
+
+```shell
+php artisan storage:create-bucket
 ```
+
+> [!IMPORTANT]
+> You will need to ensure you have configured your `AWS_` environment variables before running this command.
 
 ## Testing
 
