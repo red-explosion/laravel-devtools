@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace RedExplosion\Devtools;
+namespace RedExplosion\DevTools;
 
 use Illuminate\Support\ServiceProvider;
 
-class DevtoolsServiceProvider extends ServiceProvider
+class DevToolsServiceProvider extends ServiceProvider
 {
     public function register(): void
     {

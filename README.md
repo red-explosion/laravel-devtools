@@ -1,37 +1,18 @@
-# Laravel Devtools
+# Laravel DevTools
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/red-explosion/laravel-devtools.svg?style=flat-square)](https://packagist.org/packages/red-explosion/laravel-devtools)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/red-explosion/laravel-devtools/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/red-explosion/laravel-devtools/actions/workflows/tests.yml?query=branch:main)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/red-explosion/laravel-devtools/coding-standards.yml?label=code%20style&style=flat-square)](https://github.com/red-explosion/laravel-devtools/actions/workflows/coding-standards.yml?query=branch:main)
 [![Total Downloads](https://img.shields.io/packagist/dt/red-explosion/laravel-devtools.svg?style=flat-square)](https://packagist.org/packages/red-explosion/laravel-devtools)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+A collection of helpful tools for building Laravel projects.
 
 ## Installation
 
-You can install the package via composer:
+To get started, install Laravel DevTools via the Composer package manager:
 
 ```bash
 composer require red-explosion/laravel-devtools
-```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="devtools-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="devtools-config"
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="devtools-views"
 ```
 
 ## Usage
