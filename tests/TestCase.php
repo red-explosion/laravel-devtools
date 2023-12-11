@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace RedExplosion\Devtools\Tests;
+namespace RedExplosion\DevTools\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use RedExplosion\Devtools\DevtoolsServiceProvider;
+use RedExplosion\DevTools\DevToolsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
