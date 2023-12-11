@@ -1,3 +1,5 @@
+<p align="center"><img width="400" src="./art/logo.svg" alt="Red Explosion Logo"></p>
+
 # Laravel DevTools
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/red-explosion/laravel-devtools.svg?style=flat-square)](https://packagist.org/packages/red-explosion/laravel-devtools)
