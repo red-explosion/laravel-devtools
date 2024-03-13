@@ -13,7 +13,7 @@ A collection of helpful tools for building Laravel projects.
 
 To get started, install Laravel DevTools via the Composer package manager:
 
-```bash
+```shell
 composer require red-explosion/laravel-devtools --dev
 ```
 
