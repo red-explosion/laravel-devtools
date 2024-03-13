@@ -14,7 +14,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app): array
     {
         return [
-            DevtoolsServiceProvider::class,
+            DevToolsServiceProvider::class,
         ];
     }
 
